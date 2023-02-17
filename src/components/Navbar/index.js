@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   Nav,
   NavLink,
@@ -8,7 +7,6 @@ import {
   NavBtn,
   NavBtnLink,
 } from './NavbarElements';
-
   
 const Navbar = () => {
   return (
