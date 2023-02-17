@@ -13,16 +13,18 @@ import SignUp from './pages/signup';
 function App() {
   return (
     <Router>
+      
       <Navbar />
       <Routes>
-        <Route path='/' exact component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/events' component={Events} />
-        <Route path='/annual' component={AnnualReport} />
-        <Route path='/team' component={Teams} />
-        <Route path='/blogs' component={Blogs} />
-        <Route path='/sign-up' component={SignUp} />
+        <Route path='/' exact element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/events' element={<Events/>} />
+        <Route path='/annual' element={<AnnualReport/>} />
+        <Route path='/team' element={<Teams/>} />
+        <Route path='/blogs' element={<Blogs/>} />
+        <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
+      
     </Router>
   );
 }
