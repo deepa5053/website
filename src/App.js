@@ -9,6 +9,7 @@ import AnnualReport from './pages/annual';
 import Teams from './pages/team';
 import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
+import signin from './pages/signin';
   
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/team' element={<Teams/>} />
         <Route path='/blogs' element={<Blogs/>} />
         <Route path='/sign-up' element={<SignUp/>} />
+        <Route path='/signin' element={<signin/>} />
       </Routes>
       
     </Router>
