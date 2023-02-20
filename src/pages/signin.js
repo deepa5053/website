@@ -1,23 +1,12 @@
 import React from "react";
-
-
 import "./sign-in.css";
 
-const signin = () => {
+const SignIn = () => {
   
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'right',
-        alignItems: 'center',
-        height: '100vh',
-        padding: '20px',
-        
-      }}
-    >
-      <h1>Sign In</h1>
+    <div>
+      <h1 className="heading" >Sign In</h1>
     <div className="form">
           <div className="form-body">
               <div className="username">
@@ -36,4 +25,4 @@ const signin = () => {
     </div>
   );
 };
-export default signin;
+export default SignIn;

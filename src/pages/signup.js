@@ -2,17 +2,8 @@ import React from 'react';
 import './signup.css'
 const SignUp = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'right',
-        alignItems: 'center',
-        height: '100vh',
-        padding: '20px',
-        
-      }}
-    >
-      <h1>Sign Up</h1>
+    <div>
+      <h1 className='heading'>Sign Up</h1>
       <div className="form">
           <div className="form-body">
               <div className="username">

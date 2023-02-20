@@ -3,15 +3,16 @@ body{
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-h1{
+.heading{
     justify-content: center;
     display: flex;
+    font-size: 50px;
 }
 .form{
     background-color: white;
     border-radius: 5px;
-    width: 550px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     margin: 20px auto;
     padding: 20px;
    
@@ -19,6 +20,7 @@ h1{
 }
 
 .form-body{
+    margin-left: 30px;
     text-align: left;
     padding: 20px 10px;
     text-align: center;
@@ -29,6 +31,8 @@ h1{
 
 .form__label{
     width: 40%;
+    display: flex;
+    align-items: flex-start;
 }
 
 .form_input{
