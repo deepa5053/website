@@ -13,32 +13,39 @@ body{
     border-radius: 5px;
     width: 500px;
     height: 600px;
-    margin: 20px auto;
-    padding: 20px;
-   
-    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -250px;
+    margin-bottom: -250px;
 }
 
 .form-body{
-    margin-left: 30px;
-    text-align: left;
-    padding: 20px 10px;
-    text-align: center;
+    margin-left: 80px;
+    text-align: left; 
+    margin-bottom: -250px;
+    
 }
-.form-body > *{
-    padding: 5px;
-}
+
 
 .form__label{
-    width: 40%;
-    display: flex;
-    align-items: flex-start;
+   
+    float: left;
+    width: 10em;
+    margin-right: 1em;
+    text-align: left;
+    
+  
 }
 
-.form_input{
-    width: 60%;
+.form__input{
+float: left;
+width: 20em;
+margin-right: 1em;
+text-align: left;
+margin-bottom: .5rem;
 }
 
 .footer{
-    text-align: center;
+    justify-content: center;
 }
